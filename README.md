@@ -9,6 +9,6 @@ The various EDA and DA files can be seen above.
 ## Modelling
 When creating a model to predict "severity", we attempted to supplement our data with features from the American Community Survey (https://data-seattlecitygis.opendata.arcgis.com/datasets/SeattleCityGIS::seattle-neighborhoods-top-50-american-community-survey-data.geojson). We used XGBoost models due to their proven ability to classify many features with great accuracy and their ability to visualize the importance of features, logistic regressions, and random forest classifiers. Ultimately, despite our attempts to optimize some of our XGBoost models and our attempts to create a model that could successfully classify all five levels of severity, we decided to stick with a highly accurate random forest model that conducted binary classification due to its stellar performance in its AUC-ROC metric. 
 
-The most relevant file for modelling is: /datathon_EDA_saeah.ipynb
+The most relevant file for modelling is "datathon_EDA_saeah.ipynb"
 
 
